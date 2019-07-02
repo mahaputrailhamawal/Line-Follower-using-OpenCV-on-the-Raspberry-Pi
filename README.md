@@ -4,7 +4,7 @@ Pada project kali ini kami mengerjakan line follower yang dimana dilengkapi deng
 
 ## Divisi Mekanik
 
-  Pada divisi ini, bertugas untuk mengatur dan mengontrol pergerakan dari robot, peralatan yang dibutuhkan yakni arduino.
+ > Pada divisi ini, bertugas untuk mengatur dan mengontrol pergerakan dari robot, peralatan yang dibutuhkan yakni arduino.
 
 ## Divisi ROS
    
