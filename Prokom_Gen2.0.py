@@ -109,12 +109,13 @@ def tcpServer():
             direction = "maju"      
             manual_speed = "0"
             mode = "auto"
+            
+#Video streaming 
 def gen():
     while True:
         frame = camera.get_image()
         yield (b'--frame\r\n'
                b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n\r\n')
-
 
 mode_thread = threading.Thread(target = controlMode)
 mode_thread.daemon = True
